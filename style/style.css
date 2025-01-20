@@ -1,0 +1,122 @@
+
+
+body{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../assets/bg.png);
+    background-size: 100%;
+}
+/* nav section start */
+.nav{
+    height: 100px;
+   
+}
+.nav-content {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+ ul{
+   display: flex; 
+   list-style-type: none;
+  
+    
+ }
+ ul li{
+   padding-left: 40px;
+ }
+ .orange{
+    color: orange;
+ }
+ .skyblue{
+    color: skyblue;
+ }
+ .aqua{
+    color: aqua;
+    
+ }
+ .blueviolet{
+    color: blueviolet;
+ }
+ .nav-section{
+    display: flex;
+ }
+ .img-text{
+    padding-left: 20px;
+ }
+ .img-text,.nav-ul,.nav-btn {
+   padding-top: 22px;
+}
+.btn-primary{
+    margin-top: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    border: none;
+
+}
+/* nav section end */
+
+/* main section start */
+.banner{
+    
+    margin-top: 30px;
+    margin-left: 130px;
+    margin-right: 130px;
+    display:flex;
+    justify-content: space-between;
+
+    
+    
+}
+.banner-content{
+    padding-top:150px;
+    width: min-content;
+}
+.banner-hadding{
+    font-weight:800px;
+    font-size: 56px;
+
+}
+.hadding-first-word{
+    color: orange;
+}
+.hadding-last-word{
+    color: skyblue;
+}
+.btn-banner{
+    margin-top: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.card1-hadding {
+    padding-top: 40px;
+    text-align: center;
+}
+.card1{
+    margin: 20px 130px;
+    display: flex;
+    gap:20px;
+}
+.card1-content{
+    text-align: center;
+    border: 1px solid red;
+    border-radius:10px;
+    box-shadow:4px 8px rgba(0, 0, 0, 0.2)
+
+}
+/* main section end */

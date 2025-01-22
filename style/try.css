@@ -1,0 +1,280 @@
+
+
+body{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  
+  *{
+      margin:0 ;
+      padding: 0;
+     
+      background-image: url(../assets/bg.png);
+      background-size: 100%;
+  }
+  /* nav section start */
+  .nav{
+      height: 100px;
+     
+  }
+  .nav-content {
+      display: flex;
+      padding-top: 20px;
+      justify-content: space-around;
+  }
+   .nav-ul ul{
+     display: flex; 
+     list-style-type: none;
+    
+      
+   }
+   ul li{
+     padding-left: 40px;
+   }
+   .orange{
+      color: orange;
+   }
+   .skyblue{
+      color: skyblue;
+   }
+   .aqua{
+      color: aqua;
+      
+   }
+   .blueviolet{
+      color: blueviolet;
+   }
+   .nav-section{
+      display: flex;
+   }
+   .img-text{
+      padding-left: 20px;
+   }
+   .img-text,.nav-ul,.nav-btn {
+     padding-top: 22px;
+  }
+  .btn-primary{
+      margin-top: 5px;
+      width: 150px;
+      height: 40px;
+      background-color: orange;
+      border-radius: 10px;
+      color: white;
+      border: none;
+  
+  }
+  /* nav section end */
+  
+  
+  /* main section start */
+  .banner{
+      
+      margin-top: 30px;
+      margin-left: 130px;
+      margin-right: 130px;
+      display:flex;
+      justify-content: space-between;
+  
+      
+      
+  }
+  .banner-content{
+      padding-top:150px;
+      width: min-content;
+  }
+  .banner-hadding{
+      font-weight:800px;
+      font-size: 56px;
+  
+  }
+  .hadding-first-word{
+      color: orange;
+  }
+  .hadding-last-word{
+      color: skyblue;
+  }
+  .btn-banner{
+      margin-top: 5px;
+      width: 150px;
+      height: 40px;
+      background-color: black;
+      border-radius: 10px;
+      color: white;
+      border: none;
+  }
+  .card1-hadding {
+      padding-top: 40px;
+      text-align: center;
+  }
+  .card1{
+      margin: 100px 130px;
+      display: flex;
+      gap:20px;
+     
+     
+     
+  }
+  .card1-content{
+      text-align: center;
+      border-radius:10px;
+      box-shadow: 0px 6px 50px 0px black;
+      padding-bottom: 70px;
+     
+  }
+  .card1-content img{
+      width: auto;
+      height: 100px;
+  }
+  .card1-btn1{
+      color: red;
+      border: none;
+  }
+  .card2-btn2{
+      color: green;
+      border: none;
+  }
+  .card3-btn3{
+      color: blue;
+      border: none;
+  }
+  .card1-1{
+    background-color:#DEF5FF;
+  }
+  .card1-2{
+  background-color:#FFF4DC ;
+  }
+  .card1-3{
+   background-color: #F2E8FF;
+  }
+  .icon-container{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  }
+  .icon{
+      
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: orange;
+      border: none;
+      margin-left: 5px;
+     
+      
+  }
+  /* card 2 start */
+  .card2-hadding{
+      margin: 50px 0px;
+      text-align: center;
+      font-weight: 800px;
+      font-size: 40px;
+  }
+  /* .card2{
+      width: 100%;
+      height: 1000px;
+      border: 2px solid red;
+      background-color:rgba(254, 163, 1, 0.3) ;
+  } */
+   .card-2all{
+      width:auto;
+      background-color: rgba(254, 163, 1, 0.3);
+      padding-bottom: 100px;
+   }
+  .card2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-left:130px;
+  margin-right: 130px;
+  padding: 5px;
+  
+  
+  }
+  
+  #story1{
+      grid-row: span 2;
+  }
+  .card2-btn{
+      text-align: center;
+      padding-top: 100px;
+      
+  }
+  .card2-btn button{
+      width: 150px;
+      height: 40px;
+      background-color: black;
+      border-radius: 10px;
+      color: white;
+      border: none;
+  }
+  
+  /* card 2 end */
+  
+  
+  /* main section end */
+  
+  /* Footer section start */
+  .footer{
+      background-color:#01ACFD;
+      height: 500px;
+  }
+  .footer-content{
+     display: flex;
+     justify-content: space-evenly;
+     
+  }
+  .footer-content ul{
+      list-style-type: none;
+  }
+   .footer-card{
+      padding-top: 100px;
+      width: 200px;
+     
+  } 
+  .fc2{
+      padding-top: 200px;
+  } 
+  
+  /* footer section end */
+  .hide{
+    display: none;
+}
+  
+  /* responsive start */
+  @media screen and (max-width: 576px) {
+      
+      .banner{
+          margin:0 ;
+          padding:0;
+          flex-direction: column-reverse;
+      }
+      .card1-hadding{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      .card1{
+          margin:0 ;
+          padding:0;
+          flex-direction: column;
+      }
+      .card2{
+          margin: 0;
+          padding: 0;
+          width: auto;
+          height: auto;
+         grid-template-columns: repeat(2, 1fr);
+      }
+      .footer-content{
+          margin:0 ;
+          padding: 0;;
+          flex-direction: column;
+          background-color:#01ACFD;
+          height: auto;
+      }
+     
+      
+  }
